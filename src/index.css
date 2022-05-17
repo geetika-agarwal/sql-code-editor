@@ -1,13 +1,115 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Slab";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+option {
+    width: min-content;
+    font-size: 12px;
+}
+
+label {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: "Roboto Slab";
+}
+
+select {
+    margin-left: 12px;
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.editor-title {
+    font-family: "Roboto Slab";
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.submit-button-wrapper button {
+    justify-content: end;
+    float: right;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.submit-button-wrapper button:hover {
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+    padding-bottom: 2px;
+    font-size: 1.5rem;
+}
+
+.tableWrapper {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    margin-bottom: 2rem;
+}
+
+.table {
+    width: 50%;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.heading {
+    margin: 2rem;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 2.5rem;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+
+
+@media all and (max-width: 510px) {
+    .tableWrapper {
+        width: auto;
+        display: block;
+        align-items: center;
+        margin: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
 }
