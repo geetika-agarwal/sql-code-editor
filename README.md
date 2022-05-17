@@ -39,32 +39,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### `Packages that are used in this project`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## `ace-build and react-ace`
+For the code editor that is visible on this page the React Ace Editor is used. This package has a lot of features and langugaes that are included in the pre built configurations and very less manipulation in the usage is required. The package that is used is the sql package.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## `react-bootstrap`
+This package is used to apply the bootstrap templates for react.
 
-### Code Splitting
+## `react-csv-to-table`
+This package is used to convert the csv files to html tables. In this project, I have stored the various csv files, that are derived from the customers csv file that is provided, and converted them directly into HTML tables using this package.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## `react-icons and styled-components`
+React icons are used for the icons that are used in the website. Styled Components are used to create user defined Components in the website.
