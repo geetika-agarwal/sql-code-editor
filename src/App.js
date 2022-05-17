@@ -18,7 +18,6 @@ import data8 from "./tables/table8.js";
 import data9 from "./tables/table9";
 import data10 from "./tables/table10.js";
 import { CsvToHtmlTable } from "react-csv-to-table";
-import { MDBDataTable } from "mdbreact";
 
 function App() {
   const [theme, setTheme] = useState("light");
